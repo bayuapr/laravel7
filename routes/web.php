@@ -7,5 +7,5 @@ Route::view('/', 'welcome');
 Route::view('contacthy', 'contact');
 
 Route ::get('/artikel', 'ArtikelController@index');
-Route ::get('artikel/1', 'ArtikelController@show');
+Route ::get('artikel/{slug}', 'ArtikelController@show');
 
